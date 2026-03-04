@@ -3,7 +3,11 @@ class P:
         self.name=name
         self.age=age
     def hlo(self):
-        return f"{self.name}is {self.age} years old"
+        self.age +=1
+        print(f"happy birthday {self.age}")
 
-p1=P("kale",20)
-print(p1.hlo())    
+p1=P("jedd",2)
+p1.hlo()
+p1.hlo()
+p1.hlo()
+p1.hlo()
